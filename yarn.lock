@@ -1917,7 +1917,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@qinetik/anique-icons@npm:1.0.3":
+"@qinetik/anique-icons@npm:>=1.0.3":
   version: 1.0.3
   resolution: "@qinetik/anique-icons@npm:1.0.3"
   peerDependencies:
@@ -1926,15 +1926,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@qinetik/anique@npm:^1.0.17":
-  version: 1.0.17
-  resolution: "@qinetik/anique@npm:1.0.17"
+"@qinetik/anique@npm:^1.0.18":
+  version: 1.0.18
+  resolution: "@qinetik/anique@npm:1.0.18"
   dependencies:
-    "@qinetik/anique-icons": 1.0.3
+    "@qinetik/anique-icons": ">=1.0.3"
   peerDependencies:
-    "@qinetik/emotion": 2.0.15
+    "@qinetik/emotion": ">=2.0.16"
     solid-js: ^1.7.11
-  checksum: c73d4914b4d00271f0b41bed5f7f6d790bf377d3bf68417d53e0acfc47d072a9a0aff97b8a00c69811878060ed7112ae5caa14c2a7fba3b62ee913c062772bfc
+  checksum: 5c6bc16b9a31b7b346e97f5fcf8fd4f8fc9cfd4c67c19a00435545dbbc4c13c6d107ffc9baad8e5cbfa6c69bf349186ce400ff51c749a6838d68db4e51b48461
   languageName: node
   linkType: hard
 
@@ -4779,7 +4779,7 @@ __metadata:
   resolution: "solid-start@workspace:."
   dependencies:
     "@auth/core": ^0.1
-    "@qinetik/anique": ^1.0.17
+    "@qinetik/anique": ^1.0.18
     "@qinetik/emotion": ^2.0.16
     "@solidjs/meta": ^0.28.2
     "@solidjs/router": ^0.8.0

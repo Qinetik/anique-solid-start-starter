@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "@auth/core": "^0.1",
-    "@qinetik/anique": "^1.0.17",
+    "@qinetik/anique": "^1.0.18",
     "@qinetik/emotion": "^2.0.16",
     "@solidjs/meta": "^0.28.2",
     "@solidjs/router": "^0.8.0",
