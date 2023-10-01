@@ -5,6 +5,6 @@ import { defineConfig } from 'vite'
 
 export default defineConfig(() => {
   return {
-    plugins: [solid({ adapter: nodeStart(), ssr : false })],
+    plugins: [solid({ adapter: nodeStart(), ssr : true })],
   }
 })
