@@ -1,6 +1,7 @@
 import {styled} from "@qinetik/emotion";
 import {createSignal} from "solid-js";
 import {Button} from "@qinetik/anique";
+import { memo} from "solid-js/web";
 
 const Container = styled(Button)`
   

@@ -1924,30 +1924,30 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@qinetik/anique-icons@npm:1.0.5":
-  version: 1.0.5
-  resolution: "@qinetik/anique-icons@npm:1.0.5"
+"@qinetik/anique-icons@npm:1.0.7":
+  version: 1.0.7
+  resolution: "@qinetik/anique-icons@npm:1.0.7"
   peerDependencies:
     solid-js: ^1.7.11
-  checksum: eaa59105087d6dbd3fe033965ec92477222f1a69223a81aad6f3923f1f131898435689ff3b1d1b92f474523915242191a21b491b0565102808044474a4dd77ee
+  checksum: 6894700e2bcf5c6e6b8aa6556f41fdf3b775042e5ed8c58c951f142316dc80b3894f7adf47e5f585b4a6a91aa6060d0702287f3cf564f4512bb698ab42b90de6
   languageName: node
   linkType: hard
 
-"@qinetik/anique@npm:^1.0.21":
-  version: 1.0.21
-  resolution: "@qinetik/anique@npm:1.0.21"
+"@qinetik/anique@npm:^1.0.27":
+  version: 1.0.27
+  resolution: "@qinetik/anique@npm:1.0.27"
   dependencies:
-    "@qinetik/anique-icons": 1.0.5
+    "@qinetik/anique-icons": 1.0.7
   peerDependencies:
-    "@qinetik/emotion": 2.0.17
+    "@qinetik/emotion": 2.0.23
     solid-js: ^1.7.11
-  checksum: da317db8c6623177a89f3194793f98ad0c7dc895337b8ad7516d2b74db7a2381991f26da8de246c14c7fa9396b30b7a7c2bbb691805725d7b121d62f78a577e1
+  checksum: 5eaf29e58dfa5d60a4c034e82e6c46613e7939785ec20e9bd6c621a42ee1cb2d88c155f2d0c8fb9cf9e0c32ee139a403199956248afba25e5b820a913da0e870
   languageName: node
   linkType: hard
 
-"@qinetik/emotion@npm:^2.0.17":
-  version: 2.0.17
-  resolution: "@qinetik/emotion@npm:2.0.17"
+"@qinetik/emotion@npm:^2.0.23":
+  version: 2.0.23
+  resolution: "@qinetik/emotion@npm:2.0.23"
   dependencies:
     "@emotion/cache": ^11.11.0
     "@emotion/is-prop-valid": ^1.2.1
@@ -1955,7 +1955,7 @@ __metadata:
     "@emotion/utils": ^1.2.1
   peerDependencies:
     solid-js: ^1.7.11
-  checksum: a73b3f24120fa4959aa7dfbcf6b0a6e7c0486291e2a7610820fec1d7ee0d7522f4d6e34b83b6b9062e8f4dbd1911540632641ee4f0c7131e41a4908691aa0d82
+  checksum: 5e1d64eb84d6624173f89424602dff8f5cf434017d186381c38f2d94ef5d024f26bb78e3fa8be85f09157260e43107c46f675b6e159ae3a66c61709d7fc80b72
   languageName: node
   linkType: hard
 
@@ -4768,8 +4768,8 @@ __metadata:
   resolution: "solid-start@workspace:."
   dependencies:
     "@auth/core": ^0.1
-    "@qinetik/anique": ^1.0.21
-    "@qinetik/emotion": ^2.0.17
+    "@qinetik/anique": ^1.0.27
+    "@qinetik/emotion": ^2.0.23
     "@solidjs/meta": ^0.28.2
     "@solidjs/router": ^0.8.0
     "@types/node": ^18.11.17
