@@ -1,5 +1,5 @@
 {
-  "name": "solid-start",
+  "name": "anique-solid-start",
   "scripts": {
     "dev": "solid-start dev --host",
     "build": "solid-start build",
@@ -11,19 +11,20 @@
   "devDependencies": {
     "@types/node": "^18.11.17",
     "prettier": "^2.8.1",
-    "solid-start": "^0.2.8",
-    "solid-start-node": "^0.2.8",
+    "solid-start": "^0.3.10",
+    "solid-start-node": "^0.3.10",
+    "solid-start-static": "^0.3.10",
     "typescript": "^5.0.0",
-    "vite": "^4.0.3"
+    "vite": "^4.5.0"
   },
   "dependencies": {
     "@qinetik/anique": "^1.0.39",
     "@qinetik/emotion": "^2.0.26",
     "@qinetik/mdi": "^1.0.4",
-    "@solidjs/meta": "^0.28.2",
-    "@solidjs/router": "^0.8.0",
+    "@solidjs/meta": "^0.29.1",
+    "@solidjs/router": "^0.8.3",
     "dotenv": "^16.0.3",
-    "solid-js": "^1.6.6"
+    "solid-js": "^1.8.4"
   },
   "engines": {
     "node": ">=16"

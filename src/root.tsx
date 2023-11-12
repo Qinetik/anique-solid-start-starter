@@ -10,16 +10,16 @@ export default function Root() {
                 <Title>SolidStart - With Anique</Title>
                 <Meta charset="utf-8"/>
                 <Meta name="viewport" content="width=device-width, initial-scale=1"/>
+                <AniqueThemeAutoSetup />
             </Head>
             <Body>
-                <AniqueThemeAutoSetup/>
-                <Suspense>
-                    <ErrorBoundary>
+                <ErrorBoundary>
+                    <Suspense>
                         <Routes>
                             <FileRoutes/>
                         </Routes>
-                    </ErrorBoundary>
-                </Suspense>
+                    </Suspense>
+                </ErrorBoundary>
                 <Scripts/>
             </Body>
         </Html>
