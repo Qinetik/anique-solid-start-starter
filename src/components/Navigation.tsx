@@ -1,6 +1,8 @@
 import {DrawerItem, StaticDrawer} from "@qinetik/anique";
 import {A, useLocation} from "solid-start";
 import {styled} from "@qinetik/emotion";
+import HomeIcon from "@qinetik/mdi/HomeIcon";
+import AboutIcon from "@qinetik/mdi/AboutIcon";
 
 const Anchor = styled(A)`
   text-decoration:none;
@@ -14,12 +16,12 @@ export default function Navigation() {
             <StaticDrawer>
                 <Anchor href="/">
                     <DrawerItem isActive={active('/')}>
-                        Home
+                        <HomeIcon />Home
                     </DrawerItem>
                 </Anchor>
                 <Anchor href="/about">
                     <DrawerItem isActive={active('/about')}>
-                        About
+                        <AboutIcon />About
                     </DrawerItem>
                 </Anchor>
             </StaticDrawer>

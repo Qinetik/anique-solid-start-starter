@@ -1,10 +1,11 @@
 import {A} from 'solid-start'
-import {Headline} from "@qinetik/anique";
+import {Centered, Headline} from "@qinetik/anique";
+import FaceSadIcon from "@qinetik/mdi/FaceSadIcon";
 
 export default function NotFound() {
     return (
-        <main>
-            <Headline>Not Found</Headline>
+        <Centered style={{ "flex-direction" : "column" }}>
+            <Headline><FaceSadIcon size={72}/> Not Found</Headline>
             <p>
                 Visit{' '}
                 <a href="https://solidjs.com" target="_blank">
@@ -21,6 +22,6 @@ export default function NotFound() {
                     About Page
                 </A>
             </p>
-        </main>
+        </Centered>
     )
 }

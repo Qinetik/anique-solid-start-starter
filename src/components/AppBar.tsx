@@ -1,5 +1,11 @@
-import {AppBar, Button} from "@qinetik/anique";
-import {createSignal} from "solid-js";
+import {AppBar, IconButton, saveThemeIntoLocalStorage} from "@qinetik/anique";
+import {createSignal, onMount, Show} from "solid-js";
+import ThemeLightDarkIcon from "@qinetik/mdi/ThemeLightDarkIcon";
+import Brightness7Icon from "@qinetik/mdi/Brightness7Icon";
+import Brightness4Icon from "@qinetik/mdi/Brightness4Icon";
+import Brightness3Icon from "@qinetik/mdi/Brightness3Icon";
+import Brightness1Icon from "@qinetik/mdi/Brightness1Icon";
+import Brightness6Icon from "@qinetik/mdi/Brightness6Icon";
 
 export default function WebAppBar() {
 
@@ -9,20 +15,32 @@ export default function WebAppBar() {
         return document.documentElement.className
     }
 
+    onMount(() => {
+        setThemeState(getTheme())
+    })
+
     function setTheme(theme: "light" | "dark") {
         document.documentElement.className = theme
+        saveThemeIntoLocalStorage(theme)
     }
 
     return (
         <AppBar
             title={"Anique"}
             actions={(
-                <Button onClick={() => {
+                <IconButton onClick={() => {
                     const theme = getTheme()
                     const newTheme = theme == "dark" ? "light" : "dark"
                     setTheme(newTheme)
                     setThemeState(newTheme)
-                }}>{themeState()}</Button>
+                }}>
+                    <Show when={themeState() == "dark"}>
+                        <Brightness7Icon />
+                    </Show>
+                    <Show when={themeState() == "light"}>
+                        <Brightness6Icon />
+                    </Show>
+                </IconButton>
             )}
         />
     )

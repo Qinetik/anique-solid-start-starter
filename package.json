@@ -17,9 +17,9 @@
     "vite": "^4.0.3"
   },
   "dependencies": {
-    "@auth/core": "^0.1",
-    "@qinetik/anique": "^1.0.31",
-    "@qinetik/emotion": "^2.0.25",
+    "@qinetik/anique": "^1.0.39",
+    "@qinetik/emotion": "^2.0.26",
+    "@qinetik/mdi": "^1.0.4",
     "@solidjs/meta": "^0.28.2",
     "@solidjs/router": "^0.8.0",
     "dotenv": "^16.0.3",
